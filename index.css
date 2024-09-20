@@ -1,0 +1,35 @@
+body {
+    background-image: url('imagenes/fondo_pagina_principal.jpg'); /* Ruta de tu imagen */
+    background-color: #000;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-style: italic;
+    color: #fff;  /* Color de la fuente */
+
+}
+
+h2 {
+    color: #3abcf9;  /* Color del texto */
+
+}
+
+#ciberseguridad, #ia, #creditos{
+    display: flex;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#inicio {
+    text-align: center;
+    color: #A7E6FF;
+}
+
+#correo, #foot-er{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,36 @@
+body {
+    background-image: url('imagenes/fondo_pagina_ia.jpg'); /* Ruta de tu imagen */
+    background-color: #000;
+    background-size: cover; /* Ajusta la imagen al tamaño de la pantalla */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    font-style: italic;
+    color: #fff;  /* Color de la fuente */
+
+}
+
+#objetivo, #historia_IA, #tipos_IA{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#page {
+    text-align: center;
+}
+
+#pagina_principal {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+#foot-er {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+}
