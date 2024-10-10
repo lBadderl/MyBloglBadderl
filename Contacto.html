@@ -3,20 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>pruebas</title>
+    <link rel="stylesheet" href="Contacto.css">
+    <title>Contacto</title>
 </head>
 <body>
-    <h1>Contacto</h1>
-    <div>
+    <div class="contacto">
+        <h1>Quejas y Sugerencias</h1>
         <form action="" method="post" enctype="text/plain">
-            <label for="">Tu nombre:</label>
-            <input type="text" name="nombre" value=""><br>
-            <label for="">Tu email:</label>
-            <input type="text" name="mail" value=""><br>
-            <label for="">mensaje:</label><br>
-            <textarea name="tuMensaje" id="" rows="10" cols="30"></textarea><br>
-            <input type="submit">
+            <label id="nombre">Tu nombre:</label>
+            <br>
+            <input id="caja_nombre" type="text" name="nombre">
+            <br><br>
+            <label id="email">Tu email:</label>
+            <br>
+            <input id="caja_text" type="text" name="mail">
+            <br><br>
+            <label id="mensaje">Mensaje:</label><br>
+            <textarea name="tuMensaje" rows="10" cols="30"></textarea>
+            <br><br>
+            <input type="submit" name="mensaje">
         </form>
+    </div>    
+    <hr><br>
+    <div class="pagina_principal">
+        <a href="index.html" class="foot">Pagina principal</a>
     </div>
 </body>
 </html>
