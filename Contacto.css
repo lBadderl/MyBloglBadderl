@@ -1,0 +1,79 @@
+body {
+    background-image: url('imagenes/Fondo\ FAQ.png'); /* Ruta de tu imagen */
+    background-color: #000;
+    background-size: cover;
+    background-attachment: fixed;
+    font-style: italic;
+    color: #000; /* Color de la fuente por defecto */
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Apilar elementos en columna */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Centrar y ajustar el tamaño del contenedor */
+.contacto {
+    background-color: black; /* Fondo negro */
+    padding: 10px; /* 10px de margen alrededor del formulario */
+    display: inline-block; /* Ajuste del ancho según el contenido */
+    border-radius: 20px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra suave */
+    margin-top: 100px; /* Espacio para el footer */
+}
+
+.contacto h1 {
+    color: #fff; /* Color del texto del título */
+    text-align: center;
+    margin-bottom: 20px; /* Separar el título del formulario */
+}
+
+/* Formulario */
+form {
+    background-color: white; /* Fondo blanco del formulario */
+    padding: 20px;
+    border-radius: 8px; /* Borde redondeado */
+}
+
+/* Ajustar los inputs y labels */
+label, input, textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 1em; /* Ajuste de tamaño de texto */
+}
+
+input[type="submit"] {
+    width: auto;
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #333; /* Color más claro al pasar el cursor */
+}
+
+/* Estilos del footer */
+.pagina_principal {
+    margin-bottom: 20px;
+}
+
+.foot {
+    color: white;
+    text-decoration: none; /* Quitar subrayado */
+    font-size: 1.2em;
+    background-color: black;
+    padding: 10px 20px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.foot:hover {
+    background-color: #333; /* Color más claro al pasar el cursor */
+}
